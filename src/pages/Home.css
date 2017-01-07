@@ -1,0 +1,58 @@
+.jumbotron{
+  height: 100vh;
+  background-size: cover;
+  background-image: url('./res/jumbo3.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.largeWhiteButton{
+  background: none;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 4px;
+  height: 3.8em;
+  width: 10em;
+  color: #fff;;
+  border-radius: 20px;
+  font-size: 1.5em;
+  font-family: 'BioRhyme Expanded';
+  outline: 0;
+}
+#jumboNameText{
+  color: #fff;
+  font-family: 'BioRhyme Expanded';
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: .03em;
+}
+#jumboTitleText{
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3em;
+}
+#cardRow{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-bottom: 14em;
+}
+.rowCard{
+  min-width: 18em;
+  max-width: 28em;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  /*SHADOW*/
+  -webkit-box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
+}

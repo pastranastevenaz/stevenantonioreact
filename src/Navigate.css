@@ -1,0 +1,41 @@
+#navigator{
+  background-image: none;
+  background-color: #333;
+  background: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-style: none;
+}
+.navbar-inverse{
+  background-image: none;
+}
+.navbar-toggle{
+  border-style: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background: none;
+  -webkit-box-shadow: 4px 3px 123px -5px rgba(107,105,107,1);
+  -moz-box-shadow: 4px 3px 123px -5px rgba(107,105,107,1);
+  box-shadow: 4px 3px 123px -5px rgba(107,105,107,1);
+}
+.navbar-inverse .navbar-toggle:active{
+  -webkit-box-shadow: inset 4px 3px 76px -36px rgba(107,105,107,0.75);
+  -moz-box-shadow: inset 4px 3px 76px -36px rgba(107,105,107,0.75);
+  box-shadow: inset 4px 3px 76px -36px rgba(107,105,107,0.75);
+}
+.navbar-inverse .navbar-brand{
+  color: #fff;
+  font-size: 1.3em;
+  font-family: 'BioRhyme Expanded';
+  font-weight: 300;
+  letter-spacing: .03em;
+}
+
+.navbar-inverse .navbar-nav a{
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: .05em;
+  font-family: 'BioRhyme Expanded';
+  text-decoration: none;
+}
