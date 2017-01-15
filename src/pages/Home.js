@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import './Home.css';
+import {
+  Flex,
+  Box
+ } from 'reflexbox'
+
 
 export default class Home extends Component {
   render() {
@@ -17,16 +22,33 @@ export default class Home extends Component {
           </div>
         </div>
 
+
+
         <div className="cards">
-          <div className="row" id="cardRow">
-            <div className="col-md-6 rowCard" id="leftCard">
-              <h1>Left</h1>
-            </div>
-            <div className="col-md-6 rowCard" id="rightCard">
-              <h1>Right</h1>
-            </div>
+        <Flex wrap>
+        <Box
+        col={12}
+        lg={6}
+        md={6}
+        sm={12}
+        >
+          <div className="card" id="left-card">
+            Left
           </div>
+        </Box>
+        <Box
+        col={12}
+        lg={6}
+        md={6}
+        sm={12}
+        >
+          <div className="card" id="right-card">
+            Right
+          </div>
+        </Box>
+        </Flex>
         </div>
+
       </div>
     );
   }

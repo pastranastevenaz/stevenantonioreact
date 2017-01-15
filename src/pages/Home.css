@@ -35,12 +35,25 @@
   font-family: 'Julius Sans One', sans-serif;
   font-size: 3em;
 }
-#cardRow{
+.cards{
+  margin-bottom: 10em;
+}
+.card{
+  min-width: 15em;
+  min-height: 22em;
+  max-height: 22em;
+  margin-left: 2em;
+  margin-right: 2em;
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: space-around;
-  margin-bottom: 14em;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  /*SHADOW*/
+  -webkit-box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
 }
 .rowCard{
   min-width: 18em;

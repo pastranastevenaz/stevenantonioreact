@@ -1,0 +1,17 @@
+/*.learn{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100vh;
+}
+.menu{
+  display: flex;
+  border-style: solid;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  border-style: solid;
+  flex-grow: 9;
+}*/
