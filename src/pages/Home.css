@@ -69,3 +69,20 @@
   -moz-box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.75);
 }
+
+.card-pic{
+  display: flex;
+  border-style: solid;
+  width: 100%;
+  flex-grow: 6;
+  align-items: center;
+  justify-content: center;
+}
+.card-text{
+  display: flex;
+  border-style: solid;
+  width: 100%;
+  flex-grow: 4;
+  align-items: center;
+  justify-content: center;
+}

@@ -33,7 +33,12 @@ export default class Home extends Component {
         sm={12}
         >
           <div className="card" id="left-card">
-            Left
+            <div className="card-pic" id="left-card-pic">
+              Pic
+            </div>
+            <div className="card-text" id="left-card-text">
+              Duis mattis ipsum urna, ac pretium leo accumsan non
+            </div>
           </div>
         </Box>
         <Box
@@ -43,7 +48,12 @@ export default class Home extends Component {
         sm={12}
         >
           <div className="card" id="right-card">
-            Right
+            <div className="card-pic" id="right-card-pic">
+              Pic
+            </div>
+            <div className="card-text" id="right-card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div>
           </div>
         </Box>
         </Flex>
